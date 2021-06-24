@@ -1,0 +1,32 @@
+{
+  "name": "public-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write 'contracts/**/*.sol'",
+    "lint": "solhint 'contracts/**/*.sol'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.4.1",
+    "@types/node": "^15.12.4",
+    "hardhat": "^2.4.0",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prettier": "^2.3.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "solhint": "^3.3.6",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4",
+    "@openzeppelin/contracts-upgradeable": "^3.4.1",
+    "@openzeppelin/hardhat-upgrades": "^1.6.0",
+    "dotenv": "^10.0.0"
+  }
+}

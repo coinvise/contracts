@@ -1,0 +1,13 @@
+node_modules/
+.env
+
+#Hardhat files
+artifacts/
+.vscode
+artifacts/
+cache/
+.env
+local.md
+data/abi/
+
+.openzeppelin/unknown-*.json
