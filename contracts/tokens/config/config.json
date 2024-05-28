@@ -1,0 +1,568 @@
+{
+  "mainnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x8314561656a5cE0309fbc9cA7d170a34dC2fAA29"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x84C72374A8bA78a2C24075375b79dCEF5296d427"
+    },
+    "ERC721TokenFactory": {
+      "address": "0xda2Ff566A348D014c69D7c5f41DbeaAd540C2785"
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": ""
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": ""
+    },
+    "ProtocolRewards": {
+      "address": "0x3a56d161ad7a24d87D98BB815F3b76747c14ba42"
+    }
+  },
+  "polygon-mainnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x1C44A67e54B36CFa937bBCDB4498bfC39bB98eeF"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x97cF28144c243e9Ac5912690E46884DD2236d49d"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xCD66e1239d4b5245B2438327539D57d158AF2ac1"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x1f1C4Fb46CA26e640C93636dDA19c142fd2Dd87a"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x96D6A6b9fF39Fd76037f9ED6ba49186e4f646533"
+    },
+    "ProtocolRewards": {
+      "address": "0xeF37eC3352988408ff34E8eAA2351cf3555DB7e1"
+    }
+  },
+  "polygon-mumbai": {
+    "ERC20Token": {
+      "address": "0x6F98f4471Cbe4041a3F8da9973108fa3c0549d3d"
+    },
+    "ERC20TokenFactory": {
+      "address": "0x6C1e58f8aFA70Eefe425130b053c2E48752CED14"
+    },
+    "ERC721TokenImpl": {
+      "address": "0xda370AF962508dBCa473ccbffCc994E0E42B73c5",
+      "mintFee": "880000000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589",
+      "sponsoredMintFee": "750000000000000000"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x8D0Bc4606946ba97fd43FDeBb32B2B689C4702a8",
+      "mintFee": "880000000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589",
+      "sponsoredMintFee": "750000000000000000"
+    },
+    "ERC721TokenFactory": {
+      "address": "",
+      "fee": "0"
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x1d2B66f66F7d6Aae3E2e6453f0A3Fd56A17FD0aE"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x7242E901442581604b2895da86F0f477263ed377"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x0AF0C5bD0aCE3520d83f30C33aDDa1E764Fe920a",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": "0x6e1268eF9927ff56324bb391b65Aa0320cFdd8C9"
+    }
+  },
+  "goerli": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xF7305F7d266FaE5b31DDc12cF7d0AB3f5CD06c09",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x10809Bc15e50C3c3d705e8378C9291Cc5E756DB4",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": "0xF1e8b32f9d05D92bB697C00Bb332Fd5965dF8E22",
+      "fee": "0"
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": ""
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": ""
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "optimism": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x33d73cc0E060939476A10E47b86A4568c7DcF261"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x0EF9Ac0A22C5b0f6a6Ccb6eE1b47E8A3f87Ff4e6"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x28CE3fC02c3b361f449eA74E49716D17bf6325b5"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xA3C34a08147CA7F9F929d7111B71aeB0A17e57DC"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x742Ba608BA717DDc89E3dC2160966e33C580B97B"
+    },
+    "ProtocolRewards": {
+      "address": "0x6dc2b6491c4F13eFEeDee8FefC2164374989E76D"
+    }
+  },
+  "optimismGoerli": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x542FfB7d78D78F957895891B6798B3d60e979b64",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x1f37e2EFDe20fB789b431a422e848A83E899c194",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678B99717EF553b4eFdA6E3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xe374110815588d8d7319541Bb2a083261F8FE1CE"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xAFD08562434d2ffBE2A1302dCf7a3533902E6380"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0xb8fE869104dd094928E7bD568aDD7f999451fba9",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "base-goerli": {
+    "ERC721TokenImpl": {
+      "address": "0xfdC435caebED2728e275F32Fa4D179975dc2cF74",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x4187038285e9aABb58671479ec02cb28089Bb914",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xBd39115fC389B9a063aF22679B49d035E1f1De58"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xe374110815588d8d7319541Bb2a083261F8FE1CE"
+    },
+    "ERC721TokenFactory": {
+      "address": "0x481ad5A837f6AEeC838298E52F35ff48bb2E000a",
+      "fee": "0"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0xAFD08562434d2ffBE2A1302dCf7a3533902E6380",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "base": {
+    "ERC721TokenImpl": {
+      "address": "0x9f53Ad37CBF5E59c61d08E7B04e150aCeffA54D9",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x92c204e88500d09Ec67883949186F29841740119",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x7e789A9fB01784D5969B8d9a9fcDaC73581B8417"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xf7EaEdf088E92793a12d1a3F943444B527ec2C44"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x5d4Ae3F518C0cfd1AF9e8CFA54Cff73A6df0E019",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": "0x6a9041A6955fe4b81cb5093b4d2D2e3a6400d61A"
+    }
+  },
+  "arbitrum-goerli": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x8C19Aa33F97475334dD312656a14051ED7d5d4c5",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0xfdC435caebED2728e275F32Fa4D179975dc2cF74",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x4187038285e9aABb58671479ec02cb28089Bb914"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x481ad5A837f6AEeC838298E52F35ff48bb2E000a"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0xBd39115fC389B9a063aF22679B49d035E1f1De58",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "arbitrumOne": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xD3C099efD49C45fe63732642881CD67C2Bf4af15",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0xb5546f1e2AE2B62b53cc5a2c7a252e4354040B5F",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x23762ddbf23D145fF93514a285364832B1ECedB6"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xeBc7fdF3D57cF46a9E524c424aC7393C093D3815"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x06D95B328761a062fD200729e1C868147004bA44",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": "0x6C5977ca9aCa21C76cb11A9f09830409D6837E89"
+    }
+  },
+  "linea-goerli": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xF95d2d81cb772797327b35d0DD5701F24aD6333d",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0xaC8602887092B371dC99F5298F648a897B7E28a6",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xEa54cb11d25742EC903E87A8A37B763508BdF879"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x4D282291FCAB56574e4E870D2B058154756097e1"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x2e9E701800F4856645545302d49317Ded21818c2",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "linea-mainnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xD3C099efD49C45fe63732642881CD67C2Bf4af15",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0xb5546f1e2AE2B62b53cc5a2c7a252e4354040B5F",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x23762ddbf23D145fF93514a285364832B1ECedB6"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xeBc7fdF3D57cF46a9E524c424aC7393C093D3815"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x06D95B328761a062fD200729e1C868147004bA44",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": "0x6C5977ca9aCa21C76cb11A9f09830409D6837E89"
+    }
+  },
+  "scroll-sepolia": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xc0DA426fAcC3C45645332d2FA24A0e4026C3571F",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x375005DaEf4EDAdB6310DCA0c8190cf4bf41FbEf",
+      "mintFee": "500000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x60e29efb8FdBA1a72c94e7E9D638918d713d2d00"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xe1EAD63B1c9835538723741163E4C7b0d5160ca0"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x034e1fd5F212353aA7392e426dA215fbC87Ee5Ed",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": ""
+    }
+  },
+  "scroll-mainnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xc822849932D348F5b07202537b19f84f5FBbB7f3",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0xA9c11E22c29667fF4AE9fD2f9a7C7c0634960952",
+      "mintFee": "690000000000000",
+      "mintFeeRecipient": "0x8df737904ab678b99717ef553b4efda6e3f94589"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x542FfB7d78D78F957895891B6798B3d60e979b64"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x3dCee31e9Bd58BDD4898E6ecDC7F4E7dDc0aA65D"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x26F8c6a5cb941F471704AFcD86F015a126E05b10",
+      "fee": "0"
+    },
+    "ProtocolRewards": {
+      "address": "0xAFD08562434d2ffBE2A1302dCf7a3533902E6380"
+    }
+  },
+  "neonevm-devnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0xF448F01C0827122d27D26C2521642DBa0EC49Faf"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x1b25727CA3aE3C9cD236b6d974f48499a09FD130"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xa1c20992Bc4b6Ad63ff90C4F8E010f17Bd511fa7"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xeF3fdBb7a2a61F00d38E991D2f10c88068663EeA"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x009a9F03f474283f8B68c2d6361d00a6496d742D"
+    },
+    "ProtocolRewards": {
+      "address": "0x1705a6C7bEEd09c39C735F1235FdF0Aaf71b5aC2"
+    }
+  },
+  "neonevm-mainnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x375005DaEf4EDAdB6310DCA0c8190cf4bf41FbEf"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x60e29efb8FdBA1a72c94e7E9D638918d713d2d00"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0x034e1fd5F212353aA7392e426dA215fbC87Ee5Ed"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0xD36dEdc2e2fd6BD1d3B8ec9B62549c1D6faF931F"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0x91A0982EbF944ee839F9dCb18dAb55a3d1f91DF5"
+    },
+    "ProtocolRewards": {
+      "address": "0xc0DA426fAcC3C45645332d2FA24A0e4026C3571F"
+    }
+  },
+  "morph-sepolia": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x375005DaEf4EDAdB6310DCA0c8190cf4bf41FbEf"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x60e29efb8FdBA1a72c94e7E9D638918d713d2d00"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xe1EAD63B1c9835538723741163E4C7b0d5160ca0"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x034e1fd5F212353aA7392e426dA215fbC87Ee5Ed"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0xD36dEdc2e2fd6BD1d3B8ec9B62549c1D6faF931F"
+    },
+    "ProtocolRewards": {
+      "address": "0xc0DA426fAcC3C45645332d2FA24A0e4026C3571F"
+    }
+  },
+  "zircuit-testnet": {
+    "ERC20Token": {
+      "address": ""
+    },
+    "ERC20TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenImpl": {
+      "address": "0x375005DaEf4EDAdB6310DCA0c8190cf4bf41FbEf"
+    },
+    "ERC721SoulboundTokenImpl": {
+      "address": "0x60e29efb8FdBA1a72c94e7E9D638918d713d2d00"
+    },
+    "ERC721TokenFactory": {
+      "address": ""
+    },
+    "ERC721TokenNativeGaslessMintImpl": {
+      "address": "0xe1EAD63B1c9835538723741163E4C7b0d5160ca0"
+    },
+    "ERC721SoulboundTokenNativeGaslessMintImpl": {
+      "address": "0x034e1fd5F212353aA7392e426dA215fbC87Ee5Ed"
+    },
+    "ERC721TokenNativeGaslessMintFactory": {
+      "address": "0xD36dEdc2e2fd6BD1d3B8ec9B62549c1D6faF931F"
+    },
+    "ProtocolRewards": {
+      "address": "0xc0DA426fAcC3C45645332d2FA24A0e4026C3571F"
+    }
+  }
+}

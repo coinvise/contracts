@@ -1,0 +1,317 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x9080DF17357E32C320Ec4f3bb27285B26e512bE3",
+    "txHash": "0xc867d01c51509799985d6c0f47d4cc7ae86b863845f5b80e6f1cca2abb8ba881"
+  },
+  "proxies": [
+    {
+      "address": "0x807B39fc3B22af90AF23306Ad762Ec6D6F50EAFa",
+      "txHash": "0xbfae0aa4b8f964931785955d4201899d72aae3b9d970922979115b9826aab048",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x53301ff8712FA42623A31A4c82AF42ea69472A11",
+      "txHash": "0x28e662e7db0be2ef4957c4f2b2bff8203c1c1a0d5d5bdc69e7bb2838530c6d87",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "6a2b353222f69a0188869fa925cd948440fa06cf60af4ab91608b0b2ececd2c5": {
+      "address": "0xeF9054ADEC2b602f033056659a98553e70026f59",
+      "txHash": "0xbfd7f1e57f539ebff64d3fcd0f0ae8d75e43879f368d1aa9cf343bd8312bb4e0",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:88"
+          },
+          {
+            "label": "_hashedName",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_bytes32",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol:40",
+            "renamedFrom": "_HASHED_NAME"
+          },
+          {
+            "label": "_hashedVersion",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_bytes32",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol:42",
+            "renamedFrom": "_HASHED_VERSION"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_string_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol:44"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_string_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol:45"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_array(t_uint256)48_storage",
+            "contract": "EIP712Upgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol:204"
+          },
+          {
+            "label": "domainSeparator",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_bytes32",
+            "contract": "EIP712BaseUpgradeable",
+            "src": "contracts/metatx-standard/lib/EIP712BaseUpgradeable.sol:17"
+          },
+          {
+            "label": "nonces",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "EIP712MetaTransactionUpgradeable",
+            "src": "contracts/metatx-standard/EIP712MetaTransactionUpgradeable.sol:12"
+          },
+          {
+            "label": "trustedAddress",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_address",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:122"
+          },
+          {
+            "label": "claimFee",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_uint256",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:125"
+          },
+          {
+            "label": "totalClaimFees",
+            "offset": 0,
+            "slot": "207",
+            "type": "t_uint256",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:128"
+          },
+          {
+            "label": "nextCampaignId",
+            "offset": 0,
+            "slot": "208",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:132"
+          },
+          {
+            "label": "campaigns",
+            "offset": 0,
+            "slot": "209",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_struct(Campaign)4029_storage))",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:137"
+          },
+          {
+            "label": "hasClaimed",
+            "offset": 0,
+            "slot": "210",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:142"
+          },
+          {
+            "label": "sponsoredClaimFee",
+            "offset": 0,
+            "slot": "211",
+            "type": "t_uint256",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:145"
+          },
+          {
+            "label": "treasury",
+            "offset": 0,
+            "slot": "212",
+            "type": "t_address",
+            "contract": "CampaignsNativeGaslessClaim",
+            "src": "contracts/campaigns/CampaignsNativeGaslessClaim.sol:149"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)48_storage": {
+            "label": "uint256[48]",
+            "numberOfBytes": "1536"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_struct(Campaign)4029_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct CampaignsNativeGaslessClaim.Campaign))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(Campaign)4029_storage)": {
+            "label": "mapping(uint256 => struct CampaignsNativeGaslessClaim.Campaign)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Campaign)4029_storage": {
+            "label": "struct CampaignsNativeGaslessClaim.Campaign",
+            "members": [
+              {
+                "label": "tokenAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "isInactive",
+                "type": "t_uint8",
+                "offset": 20,
+                "slot": "0"
+              },
+              {
+                "label": "isGasless",
+                "type": "t_uint8",
+                "offset": 21,
+                "slot": "0"
+              },
+              {
+                "label": "maxClaims",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "noOfClaims",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "amountPerClaim",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxSponsoredClaims",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "noOfSponsoredClaims",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

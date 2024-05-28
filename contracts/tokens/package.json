@@ -1,0 +1,81 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "description": "Coinvise smart contracts for tokens",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "size": "yarn run hardhat size-contracts",
+    "script": "npx hardhat run",
+    "lint": "prettier --list-different 'contracts/**/*.sol' ; solhint 'contracts/**/*.sol'",
+    "deploy:ERC721TokenImplLogic": "npx hardhat run ./scripts/erc721/clones/deployERC721TokenImplLogic.ts",
+    "deploy:ERC721SoulboundTokenImplLogic": "npx hardhat run ./scripts/erc721/clones/deployERC721SoulboundTokenImplLogic.ts",
+    "deploy:ERC721TokenNativeGaslessImplLogic": "npx hardhat run ./scripts/erc721/clones/gasless/deployERC721TokenNativeGaslessImplLogic.ts",
+    "deploy:ERC721SoulboundTokenNativeGaslessImplLogic": "npx hardhat run ./scripts/erc721/clones/gasless/deployERC721SoulboundTokenNativeGaslessImplLogic.ts",
+    "deploy:ERC721TokenFactory": "npx hardhat run ./scripts/erc721/clones/deployERC721TokenFactory.ts",
+    "verify:ERC721TokenFactory": "npx hardhat run ./scripts/erc721/clones/verifyERC721TokenFactory.ts",
+    "run:deployERC721TokenViaFactory": "npx hardhat run ./scripts/erc721/clones/deployERC721TokenViaFactory.ts",
+    "deploy:ERC721TokenNativeGaslessMintFactory": "npx hardhat run ./scripts/erc721/clones/gasless/deployERC721TokenNativeGaslessMintFactory.ts",
+    "verify:ERC721TokenNativeGaslessMintFactory": "npx hardhat run ./scripts/erc721/clones/gasless/verifyERC721TokenNativeGaslessMintFactory.ts",
+    "run:deployERC721TokenNativeGaslessMintViaFactory": "npx hardhat run ./scripts/erc721/clones/gasless/deployERC721TokenNativeGaslessMintViaFactory.ts",
+    "run:mintERC721Token": "npx hardhat run ./scripts/erc721/mintERC721Token.ts",
+    "deploy:ProtocolRewards": "npx hardhat run ./scripts/protocol-rewards/deployProtocolRewards.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinvise/tokens.git"
+  },
+  "author": {
+    "name": "Tokenfi Inc.",
+    "email": "info@coinvise.co",
+    "url": "https://github.com/coinvise"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/coinvise/tokens/issues"
+  },
+  "homepage": "https://github.com/coinvise/tokens#readme",
+  "devDependencies": {
+    "@coinvise/hardhat": "workspace:*",
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "2.0.5",
+    "@openzeppelin/contracts": "4.8.0",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "erc721a": "4.2.2",
+    "ethereum-waffle": "3.4.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.2",
+    "hardhat-abi-exporter": "2.3.1",
+    "hardhat-contract-sizer": "2.1.1",
+    "hardhat-gas-reporter": "^1.0.9",
+    "lodash": "^4.17.15",
+    "prettier": "2.5.0",
+    "prettier-plugin-solidity": "1.0.0-beta.19",
+    "solhint": "^3.4.1",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@biconomy/mexa": "2.0.14",
+    "@coinvise/chain": "workspace:*",
+    "@openzeppelin/contracts-upgradeable": "4.8.0",
+    "@openzeppelin/hardhat-upgrades": "1.12.0",
+    "axios": "^1.3.4",
+    "defender-relay-client": "^1.39.0",
+    "nft.storage": "^7.0.0"
+  }
+}

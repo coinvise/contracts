@@ -1,0 +1,49 @@
+# directories
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+**/artifacts
+**/build
+**/cache
+**/coverage
+**/.coverage_artifacts
+**/.coverage_cache
+**/.coverage_contracts
+**/dist
+**/node_modules
+
+# files
+*.env
+*.log
+.pnp.*
+coverage.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# types
+!src/types/
+src/types/*
+!src/types/contracts/
+src/types/contracts/*
+!src/types/contracts/campaigns
+src/types/contracts/campaigns/*
+!src/types/common.ts
+!src/types/contracts/campaigns/Campaigns.ts
+!src/types/contracts/campaigns/CampaignsNativeGaslessClaim.ts
+
+# factories
+!src/types/factories/
+src/types/factories/*
+!src/types/factories/contracts/
+src/types/factories/contracts/*
+!src/types/factories/contracts/campaigns
+src/types/factories/contracts/campaigns/*
+!src/types/factories/common.ts
+!src/types/factories/contracts/campaigns/Campaigns__factory.ts
+!src/types/factories/contracts/campaigns/CampaignsNativeGaslessClaim__Factory.ts
+
+contracts/**/*.yul

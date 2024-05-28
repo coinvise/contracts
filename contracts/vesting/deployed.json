@@ -1,0 +1,22 @@
+{
+  "mainnet": {
+    "implementation": "0xaEa551e10255B61f5D3E31af217A24B1a5A0aCA8",
+    "factory": "0x60e6B4e7475CdFafef103d79617d80Ecd9767D72"
+  },
+  "ropsten": {
+    "implementation": "0xea852CB2Ef0f1A1c59629d77B87f58F05848B1Fb",
+    "factory": "0x33f464A969B65090eA1fE212cE9182d9c2dbF9bD"
+  },
+  "rinkeby": {
+    "implementation": "0x120904A8098c4336FD59c231035a528178106190",
+    "factory": "0xF5c95B07E8b4Ad691d9379b4D7d3FD14Ceee0838"
+  },
+  "polygon": {
+    "implementation": "0x9646747a78F2440c9f1e179879049311AD4465ba",
+    "factory": "0xA5912eFF588B6B4133a97cD15E6026F030b1B08b"
+  },
+  "mumbai": {
+    "implementation": "0x181B6c61F0EF94e7435A8DFB0673a2196AED5d92",
+    "factory": "0x67dC05E6c45b3a1e4349BB5f2a9C21477bC79b43"
+  }
+}

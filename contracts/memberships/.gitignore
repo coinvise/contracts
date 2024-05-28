@@ -1,0 +1,49 @@
+# directories
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+**/artifacts
+**/build
+**/cache
+**/coverage
+**/.coverage_artifacts
+**/.coverage_cache
+**/.coverage_contracts
+**/dist
+**/node_modules
+
+# files
+*.env
+*.log
+.pnp.*
+coverage.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# types
+src/types/*
+!src/types/common.ts
+!src/types/IMemberships.ts
+!src/types/IMembershipsFactory.ts
+!src/types/IMembershipsProxy.ts
+!src/types/IMembershipsMetadataRegistry.ts
+!src/types/Memberships.ts
+!src/types/MembershipsFactory.ts
+!src/types/MembershipsProxy.ts
+!src/types/MembershipsMetadataRegistry.ts
+
+# factories
+!src/types/factories
+src/types/factories/*
+!src/types/factories/IMemberships__factory.ts
+!src/types/factories/IMembershipsFactory__factory.ts
+!src/types/factories/IMembershipsProxy__factory.ts
+!src/types/factories/IMembershipsMetadataRegistry__factory.ts
+!src/types/factories/Memberships__factory.ts
+!src/types/factories/MembershipsFactory__factory.ts
+!src/types/factories/MembershipsProxy__factory.ts
+!src/types/factories/MembershipsMetadataRegistry__factory.ts

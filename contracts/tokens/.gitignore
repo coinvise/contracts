@@ -1,0 +1,74 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+
+# macOS
+.DS_Store
+
+# deployment-specific configs
+now.json
+node_modules
+
+#Hardhat files
+artifacts/
+.vscode
+artifacts/
+cache/
+.env
+local.md
+data/abi/
+contracts/**/*.yul
+
+.openzeppelin/unknown-31337.json
+
+**/coverage
+coverage.json
+
+# types
+typechain/*
+!typechain/common.ts
+# ERC20Token
+!typechain/contracts/tokens/erc20/ERC20Token.ts
+!typechain/contracts/tokens/erc20/ERC20TokenFactory.ts
+# ERC721Token
+!typechain/contracts/tokens/erc721/ERC721Token.ts
+!typechain/contracts/tokens/erc721/ERC721SoulboundToken.ts
+# ERC721Token Gasless
+!typechain/contracts/tokens/erc721/gasless/ERC721TokenGaslessMint.ts
+!typechain/contracts/tokens/erc721/gasless/ERC721TokenNativeGaslessMint.ts
+!typechain/contracts/tokens/erc721/gasless/ERC721SoulboundTokenNativeGaslessMint.ts
+# ERC721Token Clones
+!typechain/contracts/tokens/erc721/clones/ERC721TokenImpl.ts
+!typechain/contracts/tokens/erc721/clones/ERC721SoulboundTokenImpl.ts
+!typechain/contracts/tokens/erc721/clones/ERC721TokenFactory.ts
+# ERC721Token Clones Gasless
+!typechain/contracts/tokens/erc721/clones/gasless/ERC721TokenNativeGaslessMintImpl.ts
+!typechain/contracts/tokens/erc721/clones/gasless/ERC721SoulboundTokenNativeGaslessMintImpl.ts
+!typechain/contracts/tokens/erc721/clones/gasless/ERC721TokenNativeGaslessMintFactory.ts
+
+# factories
+!typechain/factories
+typechain/factories/*
+# ERC20Token
+!typechain/factories/contracts/tokens/erc20/ERC20Token__factory.ts
+!typechain/factories/contracts/tokens/erc20/ERC20TokenFactory__factory.ts
+# ERC721Token
+!typechain/factories/contracts/tokens/erc721/ERC721Token__factory.ts
+!typechain/factories/contracts/tokens/erc721/ERC721SoulboundToken__factory.ts
+# ERC721Token Gasless
+!typechain/factories/contracts/tokens/erc721/gasless/ERC721TokenGaslessMint__factory.ts
+!typechain/factories/contracts/tokens/erc721/gasless/ERC721TokenNativeGaslessMint__factory.ts
+!typechain/factories/contracts/tokens/erc721/gasless/ERC721SoulboundTokenNativeGaslessMint__factory.ts
+# ERC721Token Clones
+!typechain/factories/contracts/tokens/erc721/clones/ERC721TokenImpl__factory.ts
+!typechain/factories/contracts/tokens/erc721/clones/ERC721SoulboundTokenImpl__factory.ts
+!typechain/factories/contracts/tokens/erc721/clones/ERC721TokenFactory__factory.ts
+# ERC721Token Clones Gasless
+!typechain/factories/contracts/tokens/erc721/clones/gasless/ERC721TokenNativeGaslessMintImpl__factory.ts
+!typechain/factories/contracts/tokens/erc721/clones/gasless/ERC721TokenNativeGaslessMintFactory__factory.ts
+!typechain/factories/contracts/tokens/erc721/clones/gasless/ERC721SoulboundTokenNativeGaslessMintImpl__factory.ts

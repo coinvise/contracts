@@ -1,0 +1,14 @@
+{
+  "ropsten": {
+    "address": "0x57eD61150D09EAD93714aa972e1D2f9037aB6be3"
+  },
+  "mumbai": {
+    "address": "0x02B46AF4017B6f013B600b995f16659a702a3128"
+  },
+  "polygon": {
+    "address": "0x973B99f902915528aC3ED4c0544E02C83fa2CEb0"
+  },
+  "mainnet": {
+    "address": "0x22Bc0693163eC3CeE5DeD3c2EE55ddbCb2bA9bbe"
+  }
+}
